@@ -21,13 +21,16 @@ body{
 .Section1 {
     display: flex;
     justify-content: space-between;
+    Border:2px solid #000000;
+    border-radius:20px;
+
   }
   
   .image1 {
     flex: 1;
     margin-left:100px; 
     margin-top:100px;
-    border:solid, bold, #323031;
+    border:solid, bold, #000000;
 
   }
   
@@ -50,22 +53,49 @@ body{
     margin: 10px;
 
   }
-  .container{
-    overflow: auto;
-    height: 100%;
+
+  .events{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
   }
 
-  .column1, .column2, .column3{
+  .container1{
+    overflow: auto;
+    height: 100%;
+    Border:2px solid #000000;
+    border-radius:20px;
+    
+  }
+  .container2{
+    font-family:Arial, Helvetica, sans-serif;
+    Color:#323031; 
+    Border:2px solid rgb(0, 0, 0)1;
+    border-radius:20px;
+    Margin:10px;
+    Padding:10px;
+  }
+
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .upcoming-event-card1, .upcoming-event-card2, .upcoming-event-card3{
     background-color: #E66E3E;
-    width:200px;
-    float: left;
+    flex: 1;
+    display:inline;
     margin: 10px;
+    border-radius: 8px;
+    padding:10px;
 
   }
   
   #style-me{
     margin-top: 20px;
     background-color:#74CB4C;
+    border:solid #000000 ;
+    clear: both;
+    /*align button to center?*/
   }
   
   
@@ -81,4 +111,5 @@ body{
     #4E8E79 -Viridian
     #C56E3B -Cocoa Brown
     #E66E3E -Burnt Sienna 
-    #323031 -Jet (tertiary) */
+    #323031 -Jet (tertiary)
+    #FFC100 -Ember yellow*/
