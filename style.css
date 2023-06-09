@@ -1,6 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+body{
+    width:960px;
+    margin:0 auto;
+    background-color:#323031;
+
+}
+
 .header{
     text-align:center;
     font-family: Arial, sans-serif; 
+    background-color:#C56E3B;
+    padding:20px;
   }
 
 .Section1 {
@@ -11,20 +26,59 @@
   .image1 {
     flex: 1;
     margin-left:100px; 
-    margin-top:35px;
+    margin-top:100px;
+    border:solid, bold, #323031;
+
   }
   
   .description {
   flex: 1;
   margin-right: 100px;
+  margin-top:10px;
 
   font-family: Arial, sans-serif; 
   font-size: 16px;
   line-height: 1.5; 
-  color: #333; 
+  color: #323031; 
   margin-bottom: 20px; 
   text-align: justify; 
   }
 
+  .Section1, .container1, .container2{
+    background-color: #4E8E79;
+    padding: 10px;
+    margin: 10px;
+
+  }
+  .container{
+    overflow: auto;
+    height: 100%;
+  }
+
+  .column1, .column2, .column3{
+    background-color: #E66E3E;
+    width:200px;
+    float: left;
+    margin: 10px;
+
+  }
+  
+  #style-me{
+    margin-top: 20px;
+    background-color:#74CB4C;
+  }
+  
+  
+  
+  
+  
+  
+  
 
 
+ /* #74CB4C -Mantis Green
+    #89BFDF -Baby Blue
+    #4E8E79 -Viridian
+    #C56E3B -Cocoa Brown
+    #E66E3E -Burnt Sienna 
+    #323031 -Jet (tertiary) */
