@@ -1,0 +1,30 @@
+.header{
+    text-align:center;
+    font-family: Arial, sans-serif; 
+  }
+
+.Section1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image1 {
+    flex: 1;
+    margin-left:100px; 
+    margin-top:35px;
+  }
+  
+  .description {
+  flex: 1;
+  margin-right: 100px;
+
+  font-family: Arial, sans-serif; 
+  font-size: 16px;
+  line-height: 1.5; 
+  color: #333; 
+  margin-bottom: 20px; 
+  text-align: justify; 
+  }
+
+
+
