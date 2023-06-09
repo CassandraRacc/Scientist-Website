@@ -13,6 +13,7 @@ body{
 
 .header{
     text-align:center;
+    font-size:60px;
     font-family: Arial, sans-serif; 
     background-color:#C56E3B;
     padding:20px;
@@ -47,7 +48,7 @@ body{
   text-align: justify; 
   }
 
-  .Section1, .container1, .container2{
+  .Section1, .container1, .container2, .form{
     background-color: #4E8E79;
     padding: 10px;
     margin: 10px;
@@ -96,6 +97,39 @@ body{
     border:solid #000000 ;
     clear: both;
     /*align button to center?*/
+  }
+
+
+  
+  .form{
+    border: solid #000;
+    border-radius:20px;
+  }
+  .form-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  #result-box {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    height:150px;
+    width:200px;
+    overflow:auto;
+
   }
   
   
