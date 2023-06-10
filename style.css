@@ -1,118 +1,148 @@
-*{
-    margin:0px;
-    padding:0px;
-    
-}
-
-body{
-    width:960px;
-    margin:0 auto;
-    background-color:#323031;
-
-}
-
-.header{
-    text-align:center;
-    font-size:60px;
-    font-family: Arial, sans-serif; 
-    background-color:#C56E3B;
-    padding:20px;
+ * {
+    margin: 0;
+    padding: 0;
   }
-
-.Section1 {
+  
+  body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #323031;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+    background-color: #C56E3B;
+    padding: 20px;
+  }
+  
+  .Section1 {
     display: flex;
     justify-content: space-between;
-    Border:2px solid #000000;
-    border-radius:20px;
-
+    border: 2px solid #000000;
+    border-radius: 20px;
   }
   
   .image1 {
     flex: 1;
-    margin-left:100px; 
-    margin-top:100px;
-    border:solid, bold, #000000;
-
+    margin-left: 100px;
+    margin-top: 100px;
+    border: solid bold #000000;
   }
   
   .description {
-  flex: 1;
-  margin-right: 100px;
-  margin-top:10px;
-
-  font-family: Arial, sans-serif; 
-  font-size: 16px;
-  line-height: 1.5; 
-  color: #323031; 
-  margin-bottom: 20px; 
-  text-align: justify; 
+    flex: 1;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #323031;
+    margin-bottom: 20px;
+    text-align: justify;
   }
-
-  .Section1, .container1, .container2, .form{
+  
+  .Section1,
+  .container1,
+  .container2,
+  .form {
     background-color: #4E8E79;
     padding: 10px;
     margin: 10px;
-
   }
-
-  .events{
-    font-family:Arial, Helvetica, sans-serif;
-    text-align:center;
+  
+  .events {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
   }
-
-  .container1{
+  
+  .container1 {
     overflow: auto;
     height: 100%;
-    Border:2px solid #000000;
-    border-radius:20px;
-    
+    border: 2px solid #000000;
+    border-radius: 20px;
   }
-  .container2{
-    font-family:Arial, Helvetica, sans-serif;
-    Color:#323031; 
-    Border:2px solid rgb(0, 0, 0)1;
-    border-radius:20px;
-    Margin:10px;
-    Padding:10px;
+  
+  .container2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323031;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
   }
-
+  
   .card-row {
     display: flex;
     justify-content: space-between;
   }
-
-  .upcoming-event-card1, .upcoming-event-card2, .upcoming-event-card3{
+  
+  .upcoming-event-card1,
+  .upcoming-event-card2,
+  .upcoming-event-card3 {
     background-color: #E66E3E;
     flex: 1;
-    display:inline;
+    display: inline;
     margin: 10px;
     border-radius: 8px;
-    padding:10px;
-
+    padding: 10px;
   }
   
-  #style-me{
+  #style-me {
     margin-top: 20px;
-    background-color:#74CB4C;
-    border:solid #000000 ;
+    background-color: #74CB4C;
+    border: solid #000000;
     clear: both;
     /*align button to center?*/
   }
 
-
-  
-  .form{
-    border: solid #000;
-    border-radius:20px;
+  .article-title {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
+  
+  .article-link1,
+  .article-link2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    width: 200px;
+  }
+  
+  .image2 {
+    display: block;
+    width:400px;
+    height: 100px;
+    background-image: url('Image2.png');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .image3 {
+   
+    background-image: url('image3.png');
+    background-size: cover;
+    background-position: center; }
+   
+  
+  .form {
+    border: solid #000;
+    border-radius: 20px;
+  }
+  
   .form-container {
     display: flex;
     align-items: center;
   }
   
-  label {
-    margin-right: 10px;
-  }
   
   input[type="text"] {
     padding: 5px;
@@ -122,20 +152,7 @@ body{
     padding: 5px 10px;
   }
   
-  #result-box {
-    margin-top: 10px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    height:150px;
-    width:200px;
-    overflow:auto;
-
-  }
-  
-  
-  
-  
-  
+   
   
   
 
