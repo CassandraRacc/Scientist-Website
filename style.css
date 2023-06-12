@@ -90,13 +90,15 @@
     padding: 10px;
   }
   
-  #style-me {
+  
+#style-me {
     margin-top: 20px;
     background-color: #74CB4C;
     border: solid #000000;
-    clear: both;
-    /*align button to center?*/
-  }
+    display: block;
+    margin: 0 auto;
+}
+  
 
   .article-title {
     display: block;
